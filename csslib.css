@@ -1,0 +1,159 @@
+body{
+	/*background-color: #FCFCFF;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	margin:0;
+	height:100%;
+}
+table,th,td{
+	/*border-collapse:collapse;*/
+	border-spacing:0px;
+	padding:0px;
+	margin:0px;
+}
+th{
+	font-size: 11pt;
+	font-weight: bold;
+}
+td{
+	font-size:9pt;
+}
+.mandicon{
+	color:orange;
+	font-weight: bold;
+	/*float:right;*/
+}
+.lbl1{
+	display:inline-block;
+	width:22%;
+	margin-left:1%;
+}
+.error{
+	color:red;
+	font-weight: bold;
+	font-size:larger;
+}
+.successmsg{
+	color:green;
+	font-weight: bold;
+}
+.notetxt{
+	font-size:8pt;
+	margin-left:2%;
+	font-style:italic;
+}
+.pagebreak{
+	page-break-after:always;
+}
+.clearfloat{
+	clear:both;
+}
+.centered, .headertopright{
+	text-align:center;
+}
+.headertopright{
+	border-right:1px solid black;
+}
+.headerbgrow{
+	width:100%;background-repeat:repeat-x;background-position:0% 100%;clear:both;
+}
+.inlinebtn{
+	display:inline;margin-right:2%;white-space:nowrap;
+}
+div.tdoverflow{
+	overflow:auto;
+	height:44px;
+}
+img{
+	border:0px none;
+}
+a:link , a:active, a:visited, a:hover, input.link{
+	text-align: left;
+	text-decoration:none;
+	color: #739600;
+	cursor: pointer;
+}
+a.button{
+	border:1px solid black;
+	padding:1px;
+	background-color:#EFEFEF;
+}
+input.link{
+	border:0px none;
+	background-color:white;
+}
+input.button, input.submit{
+	cursor: pointer;
+}
+input.smallnum{
+	width:65px;
+	text-align:right;
+}
+input.fixedtext{
+	position:absolute;
+	left: 200px;
+	width: 250px;
+	height: 22px;
+}
+input.plain{
+	background-color:white;
+	border:none;
+	font-weight:bold;
+	cursor:pointer;
+}
+label,.label{
+	white-space:nowrap;
+	display:inline-block;
+}
+textarea{
+	vertical-align:middle;
+}
+textarea.fixedtext{
+	position:relative;
+	left:0px;
+	width: 450px;
+}
+textarea.editformlong{
+	width:70%;vertical-align:middle;height:24px;
+}
+select.editform{
+	width:55%;
+}
+select.editformlong{
+	width:90%;
+}
+.pdfthumblink{
+	width:185px;margin-right:20px;margin-bottom:20px;float:left;word-wrap:break-word;
+}
+.pdfthumbimg{
+	width:185px;
+}
+.readonlybg{
+	background-color:#EFEFEF;
+}
+.jssectionshow{
+	display:block;height:auto;width:auto;
+}
+.jssectionhide{
+	display:none;width:0;height:0;
+}
+.subtitletop{
+	color:#442200;font-weight:bold;margin-left:3%;float:left;
+}
+.debugprint{
+	color:#AA6666;
+}
+.header1{
+	font-size:16pt;
+	font-weight:bold;
+}
+/*credit: http://www.howtocreate.co.uk/tutorials/testMenu.html*/
+/*
+.hoverMenu,.hoverMenu ul{
+	cursor:pointer;float:left;padding:0;margin-left:1px;margin-right:2%;
+}.hoverMenu li{
+	white-space:nowrap;list-style-type:none;position:relative;background-color:#87B23F;border:1px outset #67921F;padding:4px;margin-bottom:2px;
+}.hoverMenu li > ul{
+	display:none;position:absolute;top:0;left:100%
+}.hoverMenu li a,.hoverMenu ul.CSStoShow,.hoverMenu li:hover > ul{display:block;color:#1D2675;}
+*/
