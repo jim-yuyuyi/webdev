@@ -1,0 +1,111 @@
+body{
+	background-color: #EFEFEF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	margin-left:2%;
+	height:100%;
+}
+table,th,td{
+	border-spacing:0px;
+	padding:0px;
+	margin:0px;
+}
+th{
+	font-size: 11pt;
+	font-weight: bold;
+}
+td{
+	font-size:9pt;
+}
+.mandicon{
+	color:orange;
+	font-weight: bold;
+}
+.lbl1{
+	display:inline-block;
+	width:22%;
+	margin-left:1%;
+}
+.error{
+	color:red;
+	font-weight: bold;
+	font-size:larger;
+}
+.successmsg{
+	color:green;
+	font-weight: bold;
+}
+.notetxt{
+	display:inline-block;
+	margin-left:4%;
+	font-style:italic;
+}
+
+.inlinebtn{
+	display:inline;margin-right:2%;white-space:nowrap;
+}
+div.tdoverflow{
+	overflow:auto;
+	height:44px;
+	width:500px;
+	height:70px;
+}
+img{
+	border:0px none;
+}
+.centered
+{	text-align:center;
+}
+a:link , a:active, a:visited, a:hover{
+	text-align: left;
+	text-decoration:none;
+	color: #739600;
+	cursor: pointer;
+}
+a.button{
+	border:1px solid black;
+	padding:1px;
+	background-color:#EFEFEF;
+}
+input.link{
+	border:0px none;
+	background-color:white;
+}
+input.hidden{
+	display:none;
+}
+.button, input.submit{
+	cursor: pointer;
+}
+.btnleftspace,.userinfo{
+	cursor:pointer;
+	display:inline-block;
+	margin-left:7%;
+}
+.sortbtn{
+	cursor:pointer;
+	border:1px solid gray;
+	color:orange;
+}
+
+input.plain{
+	background-color:white;
+	border:none;
+	font-weight:bold;
+	cursor:pointer;
+}
+label,.label{
+	white-space:nowrap;
+	display:inline-block;
+}
+.textarea1{
+	width:80%;
+	vertical-align:middle;
+}
+.debugprint{
+	color:#AA6666;
+}
+.header1{
+	font-size:16pt;
+	font-weight:bold;
+}
